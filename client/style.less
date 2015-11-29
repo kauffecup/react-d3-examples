@@ -1,0 +1,62 @@
+@accent-color: #2171b5;
+@accent-text-color: #fff;
+@secondary-text-color: #000;
+
+// get the page ready
+* { outline: none; box-sizing: border-box; }
+body { padding: 0; margin: 0; }
+html, body, .my-app, .simple-component { height: 100%; width: 100%; position: absolute; top: 0; right: 0; }
+body, button, input {
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size: 1em;
+}
+
+.my-app {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* Center the contents of the bubble chart */
+  .simple-component {
+    flex: 1;
+    position: relative;
+    display: flex;
+    user-select: none;
+    justify-content: center;
+
+    .bubble-chart-text {
+      /* Center text in the circle, and hide any overflow */
+      .bubble-label {
+        text-align: center;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 50%;
+        will-change: left, top, height, width;
+        /* Show the overflow when hovering over a label */
+        &:hover {
+          overflow: visible;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .component-toggler {
+    background: @accent-color;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      cursor: pointer;
+      color: @secondary-text-color;
+      &.selected { font-style: bold; color: @accent-text-color; }
+      &:hover { color: @accent-text-color; }
+    }
+  }
+}

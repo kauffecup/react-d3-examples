@@ -1,0 +1,401 @@
+[{
+  "_id":"Congress",
+  "colorValue":-0.07944085908712871,
+  "value":324
+},{
+  "_id":"President",
+  "colorValue":-0.009495903024793365,
+  "value":241
+},{
+  "_id":"Nitish Kumar",
+  "colorValue":0.04319046058653846,
+  "value":241
+},{
+  "_id":"India",
+  "colorValue":0.004815398261904765,
+  "value":207
+},{
+  "_id":"Hillary Clinton",
+  "colorValue":-0.3686339492678572,
+  "value":197
+},{
+  "_id":"Bihar",
+  "colorValue":0.10643388533181815,
+  "value":159
+},{
+  "_id":"Chief Minister",
+  "colorValue":0.24411120622222218,
+  "value":154
+},{
+  "_id":"Bjp",
+  "colorValue":-0.028494879556140353,
+  "value":153
+},{
+  "_id":"Iowa",
+  "colorValue":0.050282342284210524,
+  "value":133
+},{
+  "_id":"Argentina",
+  "colorValue":-0.22059138361538458,
+  "value":124
+},{
+  "_id":"Sen. David Vitter",
+  "colorValue":-0.4091055542222222,
+  "value":108
+},{
+  "_id":"Abdel Nader",
+  "colorValue":-0.0147786997,
+  "value":102
+},{
+  "_id":"Rahul Gandhi",
+  "colorValue":-0.018671950202173916,
+  "value":101
+},{
+  "_id":"David Vitter",
+  "colorValue":-0.3687923643636363,
+  "value":100
+},{
+  "_id":"Louisiana",
+  "colorValue":-0.31676500610357144,
+  "value":100
+},{
+  "_id":"Rep. John Bel Edwards",
+  "colorValue":-0.07535150214285714,
+  "value":94
+},{
+  "_id":"Lalu Prasad",
+  "colorValue":0.08891558335333333,
+  "value":94
+},{
+  "_id":"Sen. Bernie Sanders",
+  "colorValue":-0.08674999099,
+  "value":87
+},{
+  "_id":"Punjab",
+  "colorValue":-0.18930136780000004,
+  "value":82
+},{
+  "_id":"Acte",
+  "colorValue":0.564652979,
+  "value":81
+},{
+  "_id":"Official",
+  "colorValue":-0.14334568181636367,
+  "value":80
+},{
+  "_id":"Tej Pratap",
+  "colorValue":-0.011140719476470584,
+  "value":78
+},{
+  "_id":"President Obama",
+  "colorValue":-0.257622498,
+  "value":69
+},{
+  "_id":"Gop",
+  "colorValue":-0.36547411912894745,
+  "value":68
+},{
+  "_id":"Chief Minister Nitish Kumar",
+  "colorValue":0.394960005,
+  "value":68
+},{
+  "_id":"Calif",
+  "colorValue":-0.13648414485000002,
+  "value":67
+},{
+  "_id":"Sukhbir Singh Badal",
+  "colorValue":-0.2516938415846154,
+  "value":63
+},{
+  "_id":"Prime Minister Narendra Modi",
+  "colorValue":0.10447110179999998,
+  "value":63
+},{
+  "_id":"Waterbury",
+  "colorValue":-0.3892360035,
+  "value":62
+},{
+  "_id":"Congress Party",
+  "colorValue":-0.06239432802727274,
+  "value":61
+},{
+  "_id":"Pml-N",
+  "colorValue":-0.11963026004000002,
+  "value":58
+},{
+  "_id":"Barack Obama",
+  "colorValue":-0.20879528277058823,
+  "value":57
+},{
+  "_id":"Paris",
+  "colorValue":-0.39504287155319145,
+  "value":56
+},{
+  "_id":"United States",
+  "colorValue":-0.19281625125000001,
+  "value":52
+},{
+  "_id":"Patna",
+  "colorValue":0.04582446865624999,
+  "value":49
+},{
+  "_id":"Us",
+  "colorValue":-0.2912421297833334,
+  "value":49
+},{
+  "_id":"Nitish",
+  "colorValue":-0.0168896045173913,
+  "value":48
+},{
+  "_id":"America",
+  "colorValue":-0.11132816859565216,
+  "value":47
+},{
+  "_id":"Finance Minister",
+  "colorValue":0.5699315023333335,
+  "value":45
+},{
+  "_id":"Gandhi Maidan",
+  "colorValue":0.011193645096774193,
+  "value":44
+},{
+  "_id":"Pakistan",
+  "colorValue":-0.28498137003333335,
+  "value":43
+},{
+  "_id":"Va",
+  "colorValue":0.349563986,
+  "value":43
+},{
+  "_id":"Vice President",
+  "colorValue":-0.0010809979166666618,
+  "value":42
+},{
+  "_id":"Texas",
+  "colorValue":-0.023499972610344828,
+  "value":40
+},{
+  "_id":"Director",
+  "colorValue":0.09190180966666665,
+  "value":40
+},{
+  "_id":"Governor Ram Nath Kovind",
+  "colorValue":-0.024144825782608695,
+  "value":40
+},{
+  "_id":"Delhi",
+  "colorValue":0.11408551748387094,
+  "value":40
+},{
+  "_id":"Senate",
+  "colorValue":-0.30414369165217386,
+  "value":39
+},{
+  "_id":"The House",
+  "colorValue":-0.2590227681363636,
+  "value":39
+},{
+  "_id":"President George H. W. Bush",
+  "colorValue":0,
+  "value":39
+},{
+  "_id":"Rjd",
+  "colorValue":0.041676961461538466,
+  "value":39
+},{
+  "_id":"Prime Minister",
+  "colorValue":0.19810763214814817,
+  "value":38
+},{
+  "_id":"Alaska",
+  "colorValue":-0.264077008,
+  "value":37
+},{
+  "_id":"Facebook",
+  "colorValue":0.21094075996,
+  "value":37
+},{
+  "_id":"Tejaswi",
+  "colorValue":0.05287217735294116,
+  "value":35
+},{
+  "_id":"Gov. Chris Christie",
+  "colorValue":-0.0944702998,
+  "value":35
+},{
+  "_id":"Tej Pratap Yadav",
+  "colorValue":-0.0690707489,
+  "value":34
+},{
+  "_id":"Deputy Chief Minister Sukhbir Badal",
+  "colorValue":-0.27957833800000004,
+  "value":34
+},{
+  "_id":"Bernie Sanders",
+  "colorValue":-0.17756967016666667,
+  "value":34
+},{
+  "_id":"U.S.",
+  "colorValue":-0.0316683990047619,
+  "value":33
+},{
+  "_id":"Georges Niang",
+  "colorValue":-0.0368218012,
+  "value":33
+},{
+  "_id":"Deputy Chief",
+  "colorValue":0.07672866683333333,
+  "value":33
+},{
+  "_id":"Secretary Of State",
+  "colorValue":-0.28800661462068977,
+  "value":33
+},{
+  "_id":"Washington",
+  "colorValue":0.004511666047619045,
+  "value":32
+},{
+  "_id":"Chairman",
+  "colorValue":0.03160759059090909,
+  "value":32
+},{
+  "_id":"New Hampshire",
+  "colorValue":-0.1965286074615384,
+  "value":32
+},{
+  "_id":"Officer",
+  "colorValue":-0.2285360022777778,
+  "value":31
+},{
+  "_id":"Twitter",
+  "colorValue":0.2609984644166667,
+  "value":31
+},{
+  "_id":"Cricket",
+  "colorValue":0.04548641252941176,
+  "value":31
+},{
+  "_id":"Lalu Yadav",
+  "colorValue":-0.26673349925000006,
+  "value":30
+},{
+  "_id":"Attorney",
+  "colorValue":-0.05803720116,
+  "value":30
+},{
+  "_id":"Modi",
+  "colorValue":0.004891332555555554,
+  "value":30
+},{
+  "_id":"Donald Trump",
+  "colorValue":-0.04343750279375,
+  "value":30
+},{
+  "_id":"Ppp",
+  "colorValue":0.10299869883333333,
+  "value":30
+},{
+  "_id":"City Council",
+  "colorValue":-0.10465162237499999,
+  "value":30
+},{
+  "_id":"Assam",
+  "colorValue":0.043196857,
+  "value":28
+},{
+  "_id":"Cte",
+  "colorValue":0.440046996,
+  "value":28
+},{
+  "_id":"Senator Bernie Sanders",
+  "colorValue":-0.0800122023,
+  "value":28
+},{
+  "_id":"Shailesh Kumar",
+  "colorValue":0,
+  "value":27
+},{
+  "_id":"Cyclones",
+  "colorValue":0.0464503989,
+  "value":27
+},{
+  "_id":"Mugabe",
+  "colorValue":-0.392563999,
+  "value":27
+},{
+  "_id":"Lok Sabha",
+  "colorValue":-0.06227504216666666,
+  "value":26
+},{
+  "_id":"Representative",
+  "colorValue":0.16050407802222225,
+  "value":26
+},{
+  "_id":"Rjd President Lalu Prasad",
+  "colorValue":0.136486247,
+  "value":26
+},{
+  "_id":"Virbhadra Singh",
+  "colorValue":0.04797476876923076,
+  "value":25
+},{
+  "_id":"Jefferson Soriano",
+  "colorValue":-0.421938002,
+  "value":25
+},{
+  "_id":"Deputy Chief Minister",
+  "colorValue":0.33752039959999997,
+  "value":25
+},{
+  "_id":"Dileep Singh Bhuria",
+  "colorValue":0.271458,
+  "value":25
+},{
+  "_id":"National Democratic Congress",
+  "colorValue":0.02623899928571428,
+  "value":25
+},{
+  "_id":"Bijendra Prasad Yadav",
+  "colorValue":0.1200297475,
+  "value":25
+},{
+  "_id":"Ohio",
+  "colorValue":-0.1946571438294117,
+  "value":25
+},{
+  "_id":"New Jersey",
+  "colorValue":-0.20533366844444448,
+  "value":25
+},{
+  "_id":"Mr Macri",
+  "colorValue":-0.322297007,
+  "value":24
+},{
+  "_id":"Abdul Bari Siddiqui",
+  "colorValue":0.16466690666666667,
+  "value":24
+},{
+  "_id":"Tej Pratap Singh Yadav",
+  "colorValue":0,
+  "value":24
+},{
+  "_id":"Isis",
+  "colorValue":-0.4245973328333333,
+  "value":24
+},{
+  "_id":"Cnn",
+  "colorValue":-0.0269614488,
+  "value":24
+},{
+  "_id":"Senator",
+  "colorValue":-0.21992594315789474,
+  "value":24
+},{
+  "_id":"Chief Minister Mamata Banerjee",
+  "colorValue":0.34516873387222224,
+  "value":24
+},{
+  "_id":"Mike Huckabee",
+  "colorValue":-0.07465394917,
+  "value":24
+}]

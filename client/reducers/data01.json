@@ -1,0 +1,401 @@
+[{
+  "_id":"President",
+  "colorValue":-0.09158288680865387,
+  "value":270
+},{
+  "_id":"United States",
+  "colorValue":-0.03118193632258064,
+  "value":125
+},{
+  "_id":"Mauricio Macri",
+  "colorValue":-0.09327133250000001,
+  "value":112
+},{
+  "_id":"Egypt",
+  "colorValue":0.057265332375,
+  "value":110
+},{
+  "_id":"Syria",
+  "colorValue":-0.36294321961071435,
+  "value":109
+},{
+  "_id":"Congress",
+  "colorValue":-0.15328536908809523,
+  "value":103
+},{
+  "_id":"Bjp",
+  "colorValue":-0.130340984652,
+  "value":100
+},{
+  "_id":"Barack Obama",
+  "colorValue":-0.27905116722222223,
+  "value":99
+},{
+  "_id":"Ben Carson",
+  "colorValue":-0.14682149866666666,
+  "value":92
+},{
+  "_id":"Russia",
+  "colorValue":-0.2845861297666667,
+  "value":88
+},{
+  "_id":"Paris",
+  "colorValue":-0.24081020818571425,
+  "value":79
+},{
+  "_id":"Official",
+  "colorValue":-0.026265640494117646,
+  "value":75
+},{
+  "_id":"France",
+  "colorValue":-0.06818389556842104,
+  "value":72
+},{
+  "_id":"Argentina",
+  "colorValue":0.14195560692307693,
+  "value":68
+},{
+  "_id":"Donald Trump",
+  "colorValue":-0.0784635874076923,
+  "value":67
+},{
+  "_id":"Turkey",
+  "colorValue":-0.2816095322,
+  "value":66
+},{
+  "_id":"U.S.",
+  "colorValue":-0.22839232223529415,
+  "value":58
+},{
+  "_id":"Francois Hollande",
+  "colorValue":-0.4451295086666667,
+  "value":56
+},{
+  "_id":"Mitt Romney",
+  "colorValue":-0.0692041042142857,
+  "value":53
+},{
+  "_id":"President Obama",
+  "colorValue":-0.33043387725,
+  "value":52
+},{
+  "_id":"Hosni Mubarak",
+  "colorValue":-0.31274847305263165,
+  "value":50
+},{
+  "_id":"Sannicandro",
+  "colorValue":0,
+  "value":49
+},{
+  "_id":"President Cristina Fernandez",
+  "colorValue":0.16667119970000002,
+  "value":47
+},{
+  "_id":"Cairo",
+  "colorValue":-0.169432006875,
+  "value":45
+},{
+  "_id":"Gop",
+  "colorValue":-0.3081777931083334,
+  "value":45
+},{
+  "_id":"America",
+  "colorValue":0.037114806813043494,
+  "value":45
+},{
+  "_id":"Iraq",
+  "colorValue":-0.31998838983333333,
+  "value":45
+},{
+  "_id":"Parliament",
+  "colorValue":0.028475118058823516,
+  "value":43
+},{
+  "_id":"Chairman",
+  "colorValue":0.04034955570370373,
+  "value":43
+},{
+  "_id":"Software Maker",
+  "colorValue":0.23830834033333334,
+  "value":42
+},{
+  "_id":"Bihar",
+  "colorValue":-0.27681056134782606,
+  "value":42
+},{
+  "_id":"India",
+  "colorValue":0.1386544239956522,
+  "value":41
+},{
+  "_id":"Hillary Clinton",
+  "colorValue":-0.26890133155555557,
+  "value":41
+},{
+  "_id":"Macri",
+  "colorValue":-0.178884153,
+  "value":40
+},{
+  "_id":"Daniel Scioli",
+  "colorValue":-0.46180951000000003,
+  "value":40
+},{
+  "_id":"Buenos Aires",
+  "colorValue":0.14506977395454548,
+  "value":40
+},{
+  "_id":"Utah",
+  "colorValue":0.01951900133333333,
+  "value":39
+},{
+  "_id":"Facebook",
+  "colorValue":0.10223030646153844,
+  "value":39
+},{
+  "_id":"Obama",
+  "colorValue":-0.19054791824999998,
+  "value":38
+},{
+  "_id":"Vladimir Putin",
+  "colorValue":-0.32700599375,
+  "value":38
+},{
+  "_id":"Washington",
+  "colorValue":-0.0984679562047619,
+  "value":37
+},{
+  "_id":"Secretary",
+  "colorValue":0.04089049994444444,
+  "value":37
+},{
+  "_id":"Attorney",
+  "colorValue":-0.08330905131578947,
+  "value":37
+},{
+  "_id":"Mr Najib",
+  "colorValue":-0.312648331,
+  "value":36
+},{
+  "_id":"Mohamed Morsi",
+  "colorValue":-0.51117003,
+  "value":35
+},{
+  "_id":"El-Sissi",
+  "colorValue":-0.24468379786470584,
+  "value":34
+},{
+  "_id":"Us",
+  "colorValue":-0.08390956709285716,
+  "value":33
+},{
+  "_id":"Muslim Brotherhood",
+  "colorValue":-0.5507805646666666,
+  "value":32
+},{
+  "_id":"Officer",
+  "colorValue":0.03994038866666667,
+  "value":31
+},{
+  "_id":"30 Percent",
+  "colorValue":0,
+  "value":31
+},{
+  "_id":"Emc",
+  "colorValue":0.2961946626666667,
+  "value":31
+},{
+  "_id":"Isil",
+  "colorValue":-0.2233007996,
+  "value":30
+},{
+  "_id":"Twitter",
+  "colorValue":0.28078942233333337,
+  "value":30
+},{
+  "_id":"Mohammed Morsi",
+  "colorValue":-0.37789588900000004,
+  "value":30
+},{
+  "_id":"Republican Party",
+  "colorValue":-0.32012209518181817,
+  "value":29
+},{
+  "_id":"American Republic",
+  "colorValue":-0.39449501,
+  "value":29
+},{
+  "_id":"Chief Minister",
+  "colorValue":0.2537248711875,
+  "value":29
+},{
+  "_id":"Presidential Election",
+  "colorValue":0.0571826881875,
+  "value":27
+},{
+  "_id":"Venezuela",
+  "colorValue":-0.3623027230909091,
+  "value":26
+},{
+  "_id":"Social Media",
+  "colorValue":0.034462999999999994,
+  "value":26
+},{
+  "_id":"Europe",
+  "colorValue":-0.23237025099,
+  "value":26
+},{
+  "_id":"Bernie Sanders",
+  "colorValue":0.019574999666666676,
+  "value":25
+},{
+  "_id":"Commissioner",
+  "colorValue":0.032553248125,
+  "value":25
+},{
+  "_id":"President Hollande",
+  "colorValue":-0.11642666133333335,
+  "value":25
+},{
+  "_id":"New York",
+  "colorValue":-0.03917278978947369,
+  "value":24
+},{
+  "_id":"Luis A. Aponte",
+  "colorValue":-0.155156001,
+  "value":24
+},{
+  "_id":"Ten Years",
+  "colorValue":0,
+  "value":23
+},{
+  "_id":"Brazil",
+  "colorValue":-0.07493942971428572,
+  "value":23
+},{
+  "_id":"Robert Lawton",
+  "colorValue":0.0111272,
+  "value":23
+},{
+  "_id":"Germany",
+  "colorValue":-0.1233466006923077,
+  "value":23
+},{
+  "_id":"0%",
+  "colorValue":0,
+  "value":23
+},{
+  "_id":"Foreign Policy",
+  "colorValue":-0.2992608716,
+  "value":23
+},{
+  "_id":"The House",
+  "colorValue":-0.029910000000000003,
+  "value":22
+},{
+  "_id":"Malaysia",
+  "colorValue":0.05420762675,
+  "value":22
+},{
+  "_id":"Jovenel Moise",
+  "colorValue":-0.31780998866666665,
+  "value":22
+},{
+  "_id":"Nandkumar Singh",
+  "colorValue":0,
+  "value":22
+},{
+  "_id":"Jude Celestin",
+  "colorValue":-0.16597400133333332,
+  "value":22
+},{
+  "_id":"Dilip Singh Bhuria",
+  "colorValue":0.114861503,
+  "value":22
+},{
+  "_id":"Valentino Rossi",
+  "colorValue":-0.2784035055,
+  "value":22
+},{
+  "_id":"Iowa",
+  "colorValue":-0.08939885866,
+  "value":22
+},{
+  "_id":"Yassin Hany",
+  "colorValue":0,
+  "value":21
+},{
+  "_id":"Prime Minister Narendra Modi",
+  "colorValue":-0.02968388800000001,
+  "value":21
+},{
+  "_id":"Middle East",
+  "colorValue":-0.02311262775000002,
+  "value":21
+},{
+  "_id":"Florida",
+  "colorValue":-0.01407228714285714,
+  "value":20
+},{
+  "_id":"Chicago",
+  "colorValue":-0.21354183549999997,
+  "value":20
+},{
+  "_id":"Climate Change",
+  "colorValue":-0.04941441733333333,
+  "value":20
+},{
+  "_id":"Shivraj Singh Chouhan",
+  "colorValue":0.3082955035,
+  "value":20
+},{
+  "_id":"Rick Morelli",
+  "colorValue":0.0615665019,
+  "value":20
+},{
+  "_id":"Lok Sabha",
+  "colorValue":-0.08165607546153845,
+  "value":20
+},{
+  "_id":"Thanksgiving",
+  "colorValue":0.05093150762500001,
+  "value":19
+},{
+  "_id":"Latin America",
+  "colorValue":-0.14185284884615385,
+  "value":19
+},{
+  "_id":"Fernandez Administration",
+  "colorValue":-0.2953990100000001,
+  "value":18
+},{
+  "_id":"President Barack Obama",
+  "colorValue":-0.48012899366666667,
+  "value":18
+},{
+  "_id":"Prime Minister Najib Razak",
+  "colorValue":-0.090997003,
+  "value":18
+},{
+  "_id":"Prnewswire",
+  "colorValue":0,
+  "value":18
+},{
+  "_id":"Korina Sanchez",
+  "colorValue":-0.183951005,
+  "value":18
+},{
+  "_id":"Editor",
+  "colorValue":0.018827934518181818,
+  "value":18
+},{
+  "_id":"Scioli",
+  "colorValue":0,
+  "value":18
+},{
+  "_id":"Sen. Marco Rubio",
+  "colorValue":-0.319070995,
+  "value":18
+},{
+  "_id":"Japan",
+  "colorValue":0.004241101479999999,
+  "value":18
+}]
