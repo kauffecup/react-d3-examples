@@ -35,8 +35,8 @@ export default class ReactBubbleChartD3 {
 
   update(el, props) {
     this.adjustSize(el);
-    var duration = 500;
-    var delay = 0;
+    const duration = 500;
+    const delay = 0;
     const { data, colorLegend } = props;
     
     // define a color scale for our colorValues
@@ -48,26 +48,26 @@ export default class ReactBubbleChartD3 {
       .range(colorLegend);
 
     // get our layout data
-    var nodes = this.bubble.nodes(data.length ? {children: data} : data)
+    const nodes = this.bubble.nodes(data.length ? {children: data} : data)
       .filter(d => d.depth); // filter out the outer bubble
 
     // link our nodes to d3
-    var circles = this.svg.selectAll('circle')
+    const circles = this.svg.selectAll('circle')
       .data(nodes, (d) => 'g' + d._id);
-    var labels = this.html.selectAll('.bubble-label')
+    const labels = this.html.selectAll('.bubble-label')
       .data(nodes, (d) => 'g' + d._id);
 
     // move any existing nodes to their new location
     circles.transition()
       .duration(duration)
-      .delay((d, i) => {delay = i * 7; return delay;})
+      .delay((d, i) => i * 7)
       .attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')
       .attr('r', (d) => d.r)
       .style('opacity', 1)
       .style('fill', d => color(d.colorValue));
     labels.transition()
       .duration(duration)
-      .delay((d, i) => {delay = i * 7; return delay;})
+      .delay((d, i) => i * 7)
       .style('height', d => 2 * d.r + 'px')
       .style('width', d => 2 * d.r + 'px')
       .style('left', d =>  d.x - d.r + 'px')
@@ -100,11 +100,11 @@ export default class ReactBubbleChartD3 {
       .transition()
       .duration(duration)
       .attr('transform', (d) => {
-        var dy = d.y - this.diameter/2;
-        var dx = d.x - this.diameter/2;
-        var theta = Math.atan2(dy,dx);
-        var destX = this.diameter * (1 + Math.cos(theta) )/ 2;
-        var destY = this.diameter * (1 + Math.sin(theta) )/ 2; 
+        const dy = d.y - this.diameter/2;
+        const dx = d.x - this.diameter/2;
+        const theta = Math.atan2(dy,dx);
+        const destX = this.diameter * (1 + Math.cos(theta) )/ 2;
+        const destY = this.diameter * (1 + Math.sin(theta) )/ 2; 
         return 'translate(' + destX + ',' + destY + ')'; })
       .attr('r', 0)
       .remove();
@@ -112,16 +112,16 @@ export default class ReactBubbleChartD3 {
       .transition()
       .duration(duration)
       .style('top', (d) => {
-        var dy = d.y - this.diameter/2;
-        var dx = d.x - this.diameter/2;
-        var theta = Math.atan2(dy,dx);
-        var destY = this.diameter * (1 + Math.sin(theta) )/ 2; 
+        const dy = d.y - this.diameter/2;
+        const dx = d.x - this.diameter/2;
+        const theta = Math.atan2(dy,dx);
+        const destY = this.diameter * (1 + Math.sin(theta) )/ 2; 
         return destY + 'px'; })
       .style('left', (d) => { 
-        var dy = d.y - this.diameter/2;
-        var dx = d.x - this.diameter/2;
-        var theta = Math.atan2(dy,dx);
-        var destX = this.diameter * (1 + Math.cos(theta) )/ 2;
+        const dy = d.y - this.diameter/2;
+        const dx = d.x - this.diameter/2;
+        const theta = Math.atan2(dy,dx);
+        const destX = this.diameter * (1 + Math.cos(theta) )/ 2;
         return destX + 'px'; })
       .style('opacity', 0)
       .style('width', 0)

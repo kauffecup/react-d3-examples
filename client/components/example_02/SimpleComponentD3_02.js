@@ -39,11 +39,11 @@ export default class ReactBubbleChartD3 {
       .range(colorLegend);
 
     // get our layout data
-    var nodes = this.bubble.nodes(data.length ? {children: data} : data)
+    const nodes = this.bubble.nodes(data.length ? {children: data} : data)
       .filter(d => d.depth); // filter out the outer bubble
 
     // link our nodes to d3
-    var circles = this.svg.selectAll('circle')
+    const circles = this.svg.selectAll('circle')
       .data(nodes, (d) => 'g' + d._id);
 
     // move any existing nodes to their new location
