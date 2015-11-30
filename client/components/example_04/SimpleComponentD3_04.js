@@ -1,6 +1,6 @@
 import d3 from 'd3';
 
-export default class ReactBubbleChartD3 {
+export default class SimpleComponentD3 {
   constructor(el, props = {}) {
     this.svg = d3.select(el).append('svg')
       .attr('class', 'bubble-chart-d3')
