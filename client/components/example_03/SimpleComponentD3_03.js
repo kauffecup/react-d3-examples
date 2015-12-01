@@ -44,31 +44,31 @@ export default class SimpleComponentD3 {
 
     // link our nodes to d3
     const circles = this.svg.selectAll('circle')
-      .data(nodes, (d) => 'g' + d._id);
+      .data(nodes, d => 'g' + d._id);
 
     // move any existing nodes to their new location
     circles.transition()
       .duration(duration)
       .delay((d, i) => i * 7)
-      .attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')
-      .attr('r', (d) => d.r)
+      .attr('transform', d => 'translate(' + d.x + ',' + d.y + ')')
+      .attr('r', d => d.r)
       .style('opacity', 1)
       .style('fill', d => color(d.colorValue));
     // create any new nodes and postion them
     circles.enter().append('circle')
       .attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')
-      .attr('r', (d) => 0)
+      .attr('r', 0)
       .style('fill', d => color(d.colorValue))
       .transition()
       .duration(duration * 1.2)
-      .attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')
-      .attr('r', (d) => d.r)
+      .attr('transform', d => 'translate(' + d.x + ',' + d.y + ')')
+      .attr('r', d => d.r)
       .style('opacity', 1);
     // remove any nodes that ain't there
     circles.exit()
       .transition()
       .duration(duration)
-      .attr('transform', (d) => {
+      .attr('transform', d => {
         const dy = d.y - this.diameter/2;
         const dx = d.x - this.diameter/2;
         const theta = Math.atan2(dy,dx);

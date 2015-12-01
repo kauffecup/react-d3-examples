@@ -53,16 +53,16 @@ export default class SimpleComponentD3 {
 
     // link our nodes to d3
     const circles = this.svg.selectAll('circle')
-      .data(nodes, (d) => 'g' + d._id);
+      .data(nodes, d => 'g' + d._id);
     const labels = this.html.selectAll('.bubble-label')
-      .data(nodes, (d) => 'g' + d._id);
+      .data(nodes, d => 'g' + d._id);
 
     // move any existing nodes to their new location
     circles.transition()
       .duration(duration)
       .delay((d, i) => i * 7)
-      .attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')
-      .attr('r', (d) => d.r)
+      .attr('transform', d => 'translate(' + d.x + ',' + d.y + ')')
+      .attr('r', d => d.r)
       .style('opacity', 1)
       .style('fill', d => color(d.colorValue));
     labels.transition()
@@ -75,13 +75,13 @@ export default class SimpleComponentD3 {
       .style('opacity', 1);
     // create any new nodes and postion them
     circles.enter().append('circle')
-      .attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')
-      .attr('r', (d) => 0)
+      .attr('transform', d => 'translate(' + d.x + ',' + d.y + ')')
+      .attr('r', 0)
       .style('fill', d => color(d.colorValue))
       .transition()
       .duration(duration * 1.2)
-      .attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')
-      .attr('r', (d) => d.r)
+      .attr('transform', d => 'translate(' + d.x + ',' + d.y + ')')
+      .attr('r', d => d.r)
       .style('opacity', 1);
     labels.enter().append('div')
         .attr('class', 'bubble-label')
@@ -99,7 +99,7 @@ export default class SimpleComponentD3 {
     circles.exit()
       .transition()
       .duration(duration)
-      .attr('transform', (d) => {
+      .attr('transform', d => {
         const dy = d.y - this.diameter/2;
         const dx = d.x - this.diameter/2;
         const theta = Math.atan2(dy,dx);
@@ -111,13 +111,13 @@ export default class SimpleComponentD3 {
     labels.exit()
       .transition()
       .duration(duration)
-      .style('top', (d) => {
+      .style('top', d => {
         const dy = d.y - this.diameter/2;
         const dx = d.x - this.diameter/2;
         const theta = Math.atan2(dy,dx);
         const destY = this.diameter * (1 + Math.sin(theta) )/ 2; 
         return destY + 'px'; })
-      .style('left', (d) => { 
+      .style('left', d => { 
         const dy = d.y - this.diameter/2;
         const dx = d.x - this.diameter/2;
         const theta = Math.atan2(dy,dx);
